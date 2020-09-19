@@ -1,0 +1,101 @@
+/* --------------产品详情---------------------- */
+/*  图书 */
+#ProductDetails{
+    width: 100%;
+    /* height: 300px; */
+    background: rgb(242,242,242);
+    margin-bottom: 26px;
+}
+#ProductDetails ul{
+   width: 1200px;
+    margin-top: 6px;
+    /* background: aqua */
+}
+#ProductDetails ul li{
+    float: left;
+    line-height: 50px; 
+}
+#ProductDetails ul li a{
+    color: #333333;
+}
+#ProductDetails ul li:first-child{
+    font-size: 26px;
+    margin-top: -4px;
+}
+#ProductDetails ul li:not(:first-child) a{
+    color: grey
+}
+/* 详情 */
+#ProductDetails .details{
+    background-color: #fff;
+}
+/* 左边 */
+#ProductDetails .detailsleft{
+    width: 370px;
+    height: 520px;
+}
+/* 右边 */
+#ProductDetails .detailsright{
+    width: 760px;
+    height: 520px;
+}
+#ProductDetails .detailsright .booktitle h2{
+    padding-top: 24px;
+}
+#ProductDetails .detailsright .booktitle .author{
+    line-height: 56px;
+}
+#ProductDetails .detailsright .price{
+    width: 740px;
+    background-color: #f5f5f5;
+    margin-top: 14px;
+    position: relative;
+    
+}
+#ProductDetails .detailsright .price .evaluate{
+    width: 80px;
+    height: 58px;
+    line-height: 0px;
+    text-align: center;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    border-left: 2px solid gray;
+}
+#ProductDetails .detailsright .price p:first-child{
+    line-height: 50px
+}
+#ProductDetails .detailsright .price .coupon{
+    margin-top: 28px;
+    padding-bottom: 14px;
+}
+#ProductDetails .detailsright .price .coupon a{
+    margin-left: 14px;
+}
+#ProductDetails .detailsright .kind{
+    width: 310px;
+    height: 36px;
+    margin-top: 16px;
+}
+#ProductDetails .detailsright .kind span{
+    line-height: 36px;
+}
+#ProductDetails .detailsright .kind div{
+    width: 70px;
+    height: 16px;
+    color: #4d4d4d;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-right: 26px;
+    padding: 8px;
+}
+#ProductDetails .detailsright .kind div a{
+    padding: 10px;
+}
+
+
+
+/* ---------------3.人气单品-------------------------- */
+#Popularitem{
+    width: 1200px;
+}
